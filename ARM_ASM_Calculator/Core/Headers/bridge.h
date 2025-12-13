@@ -1,5 +1,3 @@
-// bridge.h
-
 #ifndef bridge_h
 #define bridge_h
 
@@ -7,7 +5,6 @@
 extern "C" {
 #endif
 
-// Объявляем функцию, реализованную в ассемблере
 float add_floats(float a, float b);
 float sub_floats(float a, float b);
 float mul_floats(float a, float b);
@@ -21,4 +18,4 @@ float sqrt_floats(float a);
 }
 #endif
 
-#endif /* bridge_h */
+#endif
