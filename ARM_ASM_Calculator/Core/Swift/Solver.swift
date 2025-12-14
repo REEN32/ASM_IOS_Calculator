@@ -1,10 +1,3 @@
-//
-//  Solver.swift
-//  IOS_Calculator
-//
-//  Created by Герман Василевич on 20.11.25.
-//
-
 import Foundation
 
 @_silgen_name("add_floats")

@@ -370,7 +370,7 @@ struct ContentView: View {
                         if !page {
                             Button(action: {
                                 Solver.numbersAfterPoint = 0;
-                                calculateLine = Parser.changeFractionalPart(Solver.caclulate(Parser.toRPN(calculateLine)))
+                                calculateLine = DecimalFormatter.changeFractionalPart(Solver.caclulate(Parser.toRPN(calculateLine)))
                             }) {
                                 Image(systemName: "equal")
                                     .font(.system(size: 46, weight: .medium))

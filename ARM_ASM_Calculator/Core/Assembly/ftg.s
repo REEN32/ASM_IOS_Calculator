@@ -1,10 +1,3 @@
-//
-//  ftg.s
-//  ARM_ASM_Calculator
-//
-//  Created by Герман Василевич on 3.12.25.
-//
-
 
     .section __TEXT,__text,regular,pure_instructions
     .globl  _tg_floats
