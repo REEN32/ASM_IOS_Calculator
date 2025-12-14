@@ -18,4 +18,8 @@ float sqrt_floats(float a);
 }
 #endif
 
+<<<<<<< HEAD
 #endif // !bridge_h
+=======
+#endif
+>>>>>>> 3b356f5acfd2f68594dafd3936668b5ca329327c
