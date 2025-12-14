@@ -95,28 +95,6 @@ class Parser {
     
     static func changeFractionalPart(_ number: String) -> String {
         var newNumber = number
-//        print("New number: \(newNumber)")
-//        if newNumber.last! == "." {
-//            newNumber.removeLast()
-//            newNumber.removeLast()
-//            return newNumber
-//        }
-//        if number.contains(".") {
-//            print("Count: \(number.split(separator: ".").last!.count)")
-//            print("Solver: \(Solver.numbersAfterPoint)")
-//            if number.split(separator: ".").last!.count > Solver.numbersAfterPoint {
-//                newNumber.removeLast(number.split(separator: ".").last!.count - Solver.numbersAfterPoint - 1)
-//                if let lastChar = newNumber.popLast(), lastChar >= "5" {
-//                    var lastNum = Int(String(newNumber.popLast()!))
-//                    lastNum! += 1
-//                    newNumber += String(lastNum!)
-//                }
-//            }
-//            print("Before \(newNumber)")
-//            if newNumber.last! == "." {
-//                newNumber.removeLast()
-//                return newNumber
-//            }
             while newNumber.last! == "0" {
                 newNumber.removeLast()
                 if newNumber.last! == "," {
@@ -124,8 +102,6 @@ class Parser {
                     break
                 }
             }
-//            print("After \(newNumber)")
-//        }
         return newNumber
     }
 }
